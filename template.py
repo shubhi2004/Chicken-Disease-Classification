@@ -7,7 +7,7 @@ logging.basicConfig(
     level=logging.INFO,format='[%(asctime)s]:%(message)s:'
     )
 
-project_name="cnnClassifier"
+project_name="Chicken-Disease-Classification"
 
 list_of_files=[
     ".github/workflows/.gitkeep",
@@ -22,10 +22,11 @@ list_of_files=[
     f"src/{project_name}/constant/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
-    "params.yaml"
+    "params.yaml",
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
+    "templates/index.html"
     
 
 
